@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Portafolio de League of legends</h1>
+
+      <nav class="navbar">
+        <a  class="link" href="#experiencia">Experencia</a>
+        <a  class="link"href="#habilidades">Habilidades</a>
+        <a  class="link" href="#aliados">Aliados</a>
+        <a class="link"
+          href="https://www.op.gg/summoners/lan/Chimbo%20Al%20Hombro-0617"
+          target="_blank"
+          rel="noreferrer"
+          >OPGG</a
+        >
+      </nav>
+    </header>
+
+    <!-- Modales -->
+    <div class="information">
+        <dialog id="dialog">
+            <h1>Este es una prueba tipo modal para un login</h1>
+            <p>Recuerda usarlo porfavor para league of legends</p>
+            <button id="hide">Cerrar Modal</button>
+
+        </dialog>
+        <button id="show">Ver más informacion</button>
+        <script>
+            window.show.addEventListener('click',()=>{
+                window.dialog.showModal()
+            })
+            window.hide.addEventListener('click',()=>{
+                window.dialog.close();
+            })
+
+        </script>
+    </div>
+    
+    <p>Mas de 15 años de experiencia siendo <strong>jugador de lol</strong></p>
+
+    <h2 id="experiencia">Experencia</h2>
+
+    <ul class="main">
+      <li class="class-items">Bardo</li>
+      <li class="class-items">Tanh kenthen</li>
+      <li class="class-items">taric</li>
+      <li class="class-items">leona</li>
+    </ul>
+
+    <img width="300" height="200" class="Image" src="Leona.jpg" alt="" />
+
+    <section>
+      <article>
+        <header>
+          <h4 id="habilidades">Habilidades Destacadas</h4>
+        </header>
+        <p>
+          Leona es un campeon con mucha movilidad y un manejo de masas y
+          bloqueos
+        </p>
+        <footer>@2024 Normalmente usando en league of legends</footer>
+      </article>
+      <article>
+        <header>
+          <h4 id="aliados">Mejores aliados para Leona</h4>
+        </header>
+        <p>
+          A lo largo del league of legends existen varios campeones con mejor WR
+        </p>
+        <ol>
+          <li>Yasuo</li>
+          <li>Jinx</li>
+          <li>Vayne</li>
+        </ol>
+        <footer>Recuerndelo usalos con prioaridad</footer>
+      </article>
+
+      <details>
+        <summary>¿Que es league legends?</summary>
+
+        <p>
+             League of Legends es un juego de estrategia multijugador en línea masivo 
+        </p>
+      </details>
+    </section>
+    <section>
+      <h2>Formularios de contacto</h2>
+      <form action="post" action="/">
+        <fieldset>
+          <legend>Informacion personal</legend>
+          <div>
+            <label for="name"
+              >Nombre
+              <input type="text" name="name" id="name" />
+            </label>
+          </div>
+          <div>
+            <label for="email"
+              >Correo
+              <input type="email" name="email" id="email" />
+            </label>
+          </div>
+
+          <div>
+            <label for="phone"
+              >Telefono
+              <input type="tel" name="phone" id="phone" />
+            </label>
+          </div>
+
+          <div>
+            <label for="password"
+              >Password
+              <input type="password" name="password" id="password" />
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informacion adicional
+               <div>
+                <label for="contato">Contacto adicional
+                    <input type="text" name="contato" id="contato"/>
+                </label>
+               </div>
+            </legend>
+        </fieldset>
+        <fieldset>
+            <div>
+                <datalist id="Lineas">
+                    <option value="Top">Top Laner</option>
+                    <option value="Jungle">Jungle Laner</option>
+                    <option value="Mid">Mid Laner</option>
+                    <option value="Adc">Carry</option>
+                    <option value="Sup">Sup</option>
+                </datalist>
+                <label for="Lineas" >
+                    ¿Que lineas deseas aprender?
+                    <input list="Lineas" name="Lineas" id="Lineas"/>
+                </label>
+            </div>
+        </fieldset>
+        <input type="submit" value="enviar">Enviar</button>
+      </form>
+    </section>
+  </body>
+
+  <footer>
+    @Copyright 2023-Lol lo mas bello
+    <a href="">Enviame un correo</a>
+    <a href="">Contactanos</a>
+  </footer>
+</html>

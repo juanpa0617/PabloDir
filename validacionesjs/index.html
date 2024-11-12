@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Formulario de Registro</h1>
+    <form id="form">
+        <div>
+            <label for="name">First Name</label>
+            <input type="text" id="name">
+            <span class="Erromsg"></span>
+            <i class="fa-solid fa-user"></i>   
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+        </div>
+        <div>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname">
+            <span class="Erromsg"></span>
+            <i class="fa-solid fa-user"></i>  
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i> 
+        </div>
+        <div>
+            <label for="birthdate">Birthdate</label>
+            <input type="date" id="birthdate">
+            <span class="Erromsg"></span>
+            <i class="fa-solid fa-calendar-days"></i>
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="seleccionar">select</option>
+                <option value="colombia">Colombia</option>
+                <option value="portugal">Portugal</option>
+                <option value="alemania">Alemania</option>
+                <option value="senegal">Senegal</option>
+            </select>
+            <span class="Erromsg"></span>
+            <i class="fa-solid fa-globe"></i>
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+        </div>
+        <div>
+            <label for="state">State/City</label>
+            <input type="text" id="state">
+            <span class="Erromsg"></span>
+            <i class="fa-solid fa-city"></i>
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+        </div>
+        <div>
+            <label for="postal">Code Postal</label>
+            <input type="text" id="postal">
+            <span class="Erromsg"></span>
+            <i class="fa-brands fa-usps"></i>
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <span class="Erromsg"></span>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+        </div>
+        <div>
+            <label for="password"> Password</label>
+            <input type="password" name="password" id="password">
+            <span class="Erromsg"></span>
+            <i class="fa-solid fa-eye eye-password"></i>
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+        </div>
+        <div>
+            <label for="rpassword">Repeat Password</label>
+            <input type="password" name="rpassword" id="rpassword">
+            <span class="Erromsg"></span>
+            <i class="fa-solid fa-eye eye-password"></i>
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+        </div>
+        <div>
+            <label for="checkbox">Aceptar términos y condiciones</label>
+            <input type="checkbox" id="checkbox">
+            <span class="Erromsg"></span>
+        </div>
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+    <script src="https://kit.fontawesome.com/2b3b8e7991.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

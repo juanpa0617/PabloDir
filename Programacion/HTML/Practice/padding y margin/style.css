@@ -1,0 +1,6 @@
+.boxcaja{
+    background-color: red;
+    height: 150px; /* altura*/
+    width: 150px; /* ancho*/
+    margin: 10px; /*separar*/
+}

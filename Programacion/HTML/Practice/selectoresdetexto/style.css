@@ -1,0 +1,17 @@
+p{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;/*Tamaño letra*/
+    font-weight: bold;  /*Negrita o definir el grosor de la tipografia*/
+    text-align: center;
+    text-align: justify; /*Empiezan parejo y terminan parejo o final de la linea*/
+    text-decoration: underline;  /* linea debajo underline en el me dio overline*/
+    line-height: 1.5; /* Espaciado de parrafos*/
+    font-style: italic; /* Letra acostado*/
+    text-transform:  capitalize;  /* Primera letra en mayuscula, uppercase, lowercase*/
+
+}
+h1{
+    text-align: center;
+    
+}
